@@ -1,0 +1,37 @@
+[
+    {
+        "prenom": "Emmanuel",
+        "nom": "Halays",
+        "email": "me@me.com",
+        "company": "LinKin",
+        "notes": "First note to set"
+    },
+    {
+        "prenom": "Paul",
+        "nom": "MACY",
+        "email": "pe@me.com",
+        "company": "LinKin",
+        "notes": "Other note test"
+    },
+    {
+        "prenom": "Jeremy",
+        "nom": "DOPE",
+        "email": "je@me.com",
+        "company": "Total",
+        "notes": "Evrything is set"
+    },
+    {
+        "prenom": "Isabelle",
+        "nom": "MELLO",
+        "email": "ise@me.com",
+        "company": "LinKin",
+        "notes": "Belle fille go"
+    },
+    {
+        "prenom": "Julia",
+        "nom": "Halays",
+        "email": "jue@me.com",
+        "company": "LinKin",
+        "notes": "Pour moi et to set"
+    }
+]
