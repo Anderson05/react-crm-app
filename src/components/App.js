@@ -2,6 +2,7 @@
 import './App.css';
 import data from '../data.json';
 import React, { Component } from 'react';
+import Grid from './Grid';
 
 
 class App extends Component{
@@ -12,21 +13,17 @@ class App extends Component{
 
   render(){
     return (
-      <div className="App">
-        <header className="App-header">
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React with CRM App
-          </a>
-        </header>
+      <div>
+        <div className="navbar-fixed">
+          <nav className="blue lighten-2">
+            <div className='nav-wrapper'>
+              <a href='/' className='brand-logo center'>Contacts</a>
+            </div>
+          </nav>
+        </div>
+        <div>
+          <Grid items={this.state.data} />
+        </div>
       </div>
     );
   }
