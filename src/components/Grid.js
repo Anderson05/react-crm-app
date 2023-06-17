@@ -4,8 +4,8 @@ import Single from './Single';
 class Grid extends Component{
     renderList(){
         // Retourne tous les éléments sous forme de liste (composant Single)
-        return this.props.items.map((item, it) => (
-            <Single key={i+1} item={item} />   
+        return this.props.items.map((item, i) => (
+            <Single key={i+1} item={item} />
         ));
     }
 

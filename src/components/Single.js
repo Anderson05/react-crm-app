@@ -5,7 +5,7 @@ const Single = (props) => {
     return(
         <li className="col s12 l6">
             <div className="card">
-                <img src="./portrait.jpg" alt="{props.item.title} " />    
+                <img src="./portrait.jpg" alt="{props.item.title} " />
                 <span className="card-title">{props.item.prenom} {props.item.nom}</span>
             </div>
             <div className="card-content">
@@ -16,6 +16,11 @@ const Single = (props) => {
                     </div>
                 </div>
             </div>
+            <div className="card-action">
+                <button className="waves-effect waves-light btn #d32f2f red darken-2">Supprimer</button>
+            </div>
         </li>
     )
 }
+
+export default Single;

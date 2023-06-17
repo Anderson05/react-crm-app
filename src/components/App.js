@@ -3,6 +3,7 @@ import './App.css';
 import data from '../data.json';
 import React, { Component } from 'react';
 import Grid from './Grid';
+import Form from './Form';
 
 
 class App extends Component{
@@ -22,6 +23,7 @@ class App extends Component{
           </nav>
         </div>
         <div>
+          <Form />
           <Grid items={this.state.data} />
         </div>
       </div>
