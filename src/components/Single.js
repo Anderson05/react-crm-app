@@ -17,7 +17,7 @@ const Single = (props) => {
                 </div>
             </div>
             <div className="card-action">
-                <button className="waves-effect waves-light btn #d32f2f red darken-2">Supprimer</button>
+                <button className="waves-effect waves-light btn #d32f2f red darken-2" onClick={()=>{props.deleteData(props.item.id)}}>Supprimer</button>
             </div>
         </li>
     )
